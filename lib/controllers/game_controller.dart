@@ -94,7 +94,7 @@ class GameController extends GetxController {
         context: context,
         builder: (BuildContext context) {
           return AlertDialog(
-            title: const Text('Game Over '),
+            title: const Text('Game Over'),
             content: Text('Score ${snake.length - 2}'),
             actions: [
               ElevatedButton(
